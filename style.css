@@ -1,0 +1,59 @@
+body {
+    background: #212529;;
+    color: white;
+}
+.text {
+    width: 40%;
+    height: 50px;
+    font-size: 18pt;
+    font-weight: bolder;
+    position: relative;
+    top: 5%;
+    background: white;
+}
+header {
+    margin: auto;
+    text-align: center;
+}
+section {
+    margin: auto;
+    text-align: center;
+    height: 70px;
+}
+.enviar {
+    height: 50px;
+    cursor: pointer;
+}
+img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+td#tarefas {
+    width: 95%;
+    height: 50px;
+    background: #fff;
+    color: black;
+    font: bolder 17pt Arial;
+    border: none;
+
+}
+
+td#excluir {
+    background: red;
+    border: none;
+}
+
+.inputVazio {
+    animation: animecaixa 0.5s;
+}
+
+@keyframes animecaixa {
+    0%,100% {
+        background: white;
+    }
+    50% {
+        background: rgba(255, 0, 0, 0.815);
+        border: 1px solid red;
+    }
+}
